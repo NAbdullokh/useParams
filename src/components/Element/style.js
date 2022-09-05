@@ -12,6 +12,9 @@ export const Product = styled.div`
   width: 80%;
   height: 700px;
   display: flex;
+  @media (max-width: 1050px) {
+    flex-direction: column;
+  }
 `;
 export const Box1 = styled.div`
   flex: 1;
@@ -20,6 +23,9 @@ export const Box1 = styled.div`
 Box1.Img = styled.img`
   width: 100%;
   height: 100%;
+  @media (max-width: 400px) {
+    transform: scale(0.6);
+  }
 `;
 
 export const Box2 = styled.div`
